@@ -1,6 +1,6 @@
 
- # Growth Mindset Welcomes You
-    ### Welcomes You
+ # Growth Mindset 
+   ## Welcomes You
 
 
 ### Do you want to develop your abilities through your perseverance and effort  ?
