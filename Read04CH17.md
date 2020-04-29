@@ -49,16 +49,12 @@ __This is the main structure of HTML5__
 </html>
 ```
 # Headers & Footers
-The main header or footer
-that appears at the top or
-bottom of every page on the
-site
 
-A header or footer for an
-individual <article> or
-<section> within the page
+The main header or footer that appears at the top or bottom of every page on the site
 
-# Navigation <nav>
+A header or footer for an individual <article> or <section> within the page
+  
+# Navigation `<nav>`
 
 The <nav> element is used to
 contain the major navigational
@@ -77,7 +73,7 @@ purposes, depending on whether
 it is inside an <article>
 element or not.
 
-'''HTML
+```HTML
 <aside>
 <section class="popular-recipes">
  <h2>Popular Recipes</h2>
@@ -94,7 +90,7 @@ element or not.
  London E2 7DP</p>
 </section>
 </aside>
-'''
+```
 
 
 When the <aside> element
@@ -149,12 +145,12 @@ both a title inside an <h2>
 element and a subtitle within an
 <h3> element.
 
-'''HTML
+```HTML
 <hgroup>
 <h2>Japanese Vegetarian</h2>
 <h3>Five week course in London</h3>
 </hgroup>
-'''
+```
 
 # Figures
 It is important to note that the
@@ -164,12 +160,12 @@ element were moved (to another
 part of the page, or even to a
 different page altogether)
 
-'''HTML
+```HTML
 <figure>
 <img src="images/bok-choi.jpg" alt="Bok Choi" />
 <figcaption>Bok Choi</figcaption>
 </figure>
-'''
+```
 Examples of usage include:
 
 + Images
