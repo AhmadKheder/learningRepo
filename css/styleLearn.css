@@ -1,0 +1,241 @@
+/*
+Theam Name: HTML5;
+Date:Fri 1 May2020;
+Discription:BAsic HTML5;
+Version:**;
+Authot: Ahmad Kheder;
+Author URL:  ;
+
+*/
+
+
+
+
+
+body {
+ 
+
+
+
+
+background-image: url('imgs/bodyBackground.jpg') ;
+
+color: #000305;
+font-weight: 400;
+font-size: 90%; /* of the default 14px */
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.5;
+text-align: left;
+background-color: gray;
+
+}
+
+
+a {
+      text-decoration: none;
+    
+}
+a:link, a:visited{color: #3a4ee7;}
+a:hover, a:active{color: #f58233;}
+
+
+ 
+ li {
+     display: inline;
+     text-align: center;
+ }
+
+
+
+.body {
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+/* main header */
+
+
+.YouTube {
+
+    height: 200px;
+    width: 100%;
+    padding: 0 auto;
+     
+    border-radius: 5px ;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+}
+.mainHeader img {
+    width: 100%;
+
+}
+
+
+
+
+header nav {
+  
+
+    background-color: #030303;
+    height: 60px;
+   text-align: center;
+    padding: 20px 10px 0 30px;
+    margin-bottom: 2px;
+
+    border-radius: 5px ;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+
+}
+
+header nav ul{
+   text-align: center;
+    list-style: none;
+    margin: 0 auto;
+}
+
+
+header nav ul li {
+
+display: inline;    
+}
+
+
+
+header a:link,  header a:visited{
+    color: white;
+    padding: 10px 40px;
+    display:inline ;
+    
+}
+
+
+
+header a:hover,  header a:active{
+    color: rgb(192, 12, 12);
+    background-color: gray;
+    text-shadow: blueviolet;
+    
+
+}
+
+/* main */
+figure img{
+    width: 100%;
+}
+.top-content {
+    background-color: #ffffff;
+    padding: 3%;
+    margin-top: 3%;
+
+    border-radius: 5px ;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+
+.post-info {
+    font-size: 90%;
+    color: #d31010;
+    font-style: italic;
+    margin-top: -10px;
+
+}
+
+
+.post-content {
+    display: block;
+
+}
+
+
+/* side bar */
+.mainContent{
+    width: 70%;
+    float: left;
+}
+
+
+.theSideBar {
+    width: 22%;
+    margin: 2% 0 0 2%;
+    float: left;
+    padding: 2%;
+    background-color: #fff;
+
+    border-radius: 5px ;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+}
+
+
+table{
+    border-spacing: 10px;
+    text-align: left;
+    background-color: #f1f1c1;
+
+}
+.footer {
+    width: 100%;
+    float: left;
+    background-color: #c59494;
+    height: 40px;
+    
+    border-radius: 5px ;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+
+}
+
+.footer p{
+    text-align: center;
+    color: honeydew;
+    width: 90%;
+}
+
+figure{
+    margin: 25px 0;
+    font-size: 90%;
+    color: #999;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
