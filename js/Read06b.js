@@ -1,40 +1,43 @@
 'use strict'
 
+function greetings(){
 
-name = prompt('First name :');
+    name = prompt('First name :');
+    document.write(name)
+
+}
  
- name.innerHTML = `<span>${name}</span>`
-
-document.getElementById('name').innerHTML.replace= `<span>${name}</span>`
 
 
-confirm("Hey " +name+"\nPress a button");
-// var time = document.getElementById('time');
-// var greeting = document.getElementById('greeting');
+
+var time = document.getElementById('time');
+var greeting = document.getElementById('greeting');
  
 
 // func show time
 
-// function showTime(){
-// let today = new Date(); // current
+function showTime(){
+var today = new Date(); // current
 
-// hour = today.getHours();
-// min = today.getMinutes();
-// sec = today.getSeconds();
+var hour = today.getHours();
+var min = today.getMinutes();
+var sec = today.getSeconds();
 
-// var AmPm ;
-// hour =hour % 12 || 12;
-// if (hour >= 12){
-//     AmPm = 'PM';
+var AmPm ;
+hour = hour % 12 || 12;
+if (hour >= 12){
+    AmPm = 'PM';
     
-// }else{
-//     AmPm = 'AM';
-// }
-
-// time.innerHTML =  `${hour}<span>:</span>${min}<span>:</span>${sec}`; 
-// setTimeout(showTime, 1000);
+}else{
+    AmPm = 'AM';
+}
 
 
-// }
+document.write(hour+':'+min+':'+sec)
+time.innerHTML = '<time>'+hour+':'+min+':'+sec+'</time>'
+setTimeout(showTime, 1000);
 
-// showTime();
+document.write(hour+':'+min+':'+sec)
+}
+
+showTime();
