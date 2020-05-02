@@ -79,7 +79,38 @@
 
 
         <!--  -->
+        <section class="top-content">
+            <header>
+                <h2>Guess <br><small>THE ANSWER IS 36</small></h2>
+            </header>
+            <footer>
+                <p class="post-info">written by: AhmadKheder</p>
+            </footer>
 
+
+            <figure>
+
+                <img src="imgs/puzzle.jpg" alt="" width="100%">
+
+            </figure>
+
+
+            <article>
+                <p>Once upon a time, there was a fish hanging around.
+                    she saw a group of fishes and said to them "Hello, hundred fishes"
+                    They said: We are not a hundred fishes, we need the same of our count, a half of it ,a quarter of it
+                    and you are with us to become a hundred
+                </p>
+<p><b>How many the fishes count?</b></p>
+<bdi>ذات مرة ، كانت هناك سمكة تتسكع.
+    رأت مجموعة من الاسماك وقالت لهم "مرحبا أيها المئة سمكة"
+    قالوا: لسنا مئة سمكة ، نحتاج نفس عددنا، نصفه ، ربعه وأنت معنا لتصبح مئة</bdi>
+    
+<br>
+<bdi><b>كم عدد السمكات الذين ألقت عليهم التحية؟</b></bdi>
+<br><button onclick="puzzle()" id="showPrompt">Click to answer</button>
+            </article>
+        </section>
         <section class="top-content">
             <header>
                 <h2>Video tutorial</h2>
@@ -369,24 +400,25 @@
         <article class="theSideBar">
             <h1>Second Side Bar</h1>
 
-             <!-- <bdi>لم تزبط معنا</bdi> -->
+            <!-- <bdi>لم تزبط معنا</bdi> -->
             <dbi>زبطت</dbi> <br>
-          
+
             <time id="time">
-         
+
             </time>
-            <script>             
+            <script>
                 showTime()
-             </script>
+            </script>
             <h1>
 
 
-                <span id="greeting"><script>greeting()</script></span>
+                <span id="greeting">
+                    <script>greeting()</script></span>
                 <!-- <bdi>لم تزبط معنا أيضاً</bdi> -->
 
                 <span id="named"></span>
 
-                
+
                 <script>
                     taName();
                 </script>
@@ -401,8 +433,24 @@
 
     </aside>
 
-    <!-- /////////////////// -->
 
+
+
+    <aside>
+        <article class="theSideBar">
+            <h1>
+                your Order
+            </h1>
+<script> document.write(orderFunc());</script>
+           
+
+
+
+        </article>
+
+
+    </aside>
+    <!-- /////////////////// -->
 
 
     <footer class="footer">
