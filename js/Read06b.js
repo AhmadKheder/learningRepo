@@ -33,11 +33,12 @@ if (hour >= 12){
 }
 
 
-document.write(hour+':'+min+':'+sec)
-time.innerHTML = '<time>'+hour+':'+min+':'+sec+'</time>'
+// document.write(hour+':'+min+':'+sec)
+return time.innerHTML = '<time>'+hour+':'+min+':'+sec+'</time>'
 setTimeout(showTime, 1000);
 
-document.write(hour+':'+min+':'+sec)
+// document.write(hour+':'+min+':'+sec)
+ 
 }
 
 showTime();
