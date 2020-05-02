@@ -1,6 +1,6 @@
 'use strict'
 
-function greetings(){
+function taName(){
 
     name = prompt('First name :');
     document.write(name)
@@ -9,36 +9,46 @@ function greetings(){
  
 
 
-
 var time = document.getElementById('time');
-var greeting = document.getElementById('greeting');
+// var greeting = document.getElementById('greeting');
  
-
 // func show time
 
 function showTime(){
+   
 var today = new Date(); // current
 
-var hour = today.getHours();
-var min = today.getMinutes();
-var sec = today.getSeconds();
-
+var hour = today.getHours();   //0 - 23 
+var min = today.getMinutes();   //0 - 59
+var sec = today.getSeconds();   //0 - 59
+// console.log("AAAA")
 var AmPm ;
-hour = hour % 12 || 12;
 if (hour >= 12){
     AmPm = 'PM';
     
 }else{
     AmPm = 'AM';
 }
+// console.log("BBBB")
 
-
-// document.write(hour+':'+min+':'+sec)
-return time.innerHTML = '<time>'+hour+':'+min+':'+sec+'</time>'
+time = hour - 12 +':'+ min +':'+ sec + AmPm
+// console.log("CCCCCC")
+document.getElementById("time").innerHTML =time;
+// console.log("DDDD")
 setTimeout(showTime, 1000);
-
-// document.write(hour+':'+min+':'+sec)
- 
+return time
 }
 
-showTime();
+// greeting func
+function greeting(hour){
+    if(hour>18 && hour <= 23 ){
+        greeting = "Good Morning";
+
+    }else if(hour > 12 && hour <=18){
+        greeting = "Good Afternoon";
+    }else{
+        greeting = "Good evning";
+    }
+    document.getElementById("greeting").innerHTML=greeting
+return greeting;
+}
